@@ -96,3 +96,20 @@ const d = b=>(2+b)
 console.log(d(5))
 
 
+var obj = {
+	nombre:"Carl",
+	apellido: "Mendez"
+}
+
+function showProp(person){
+	console.log("Nombre : ",person.nombre," Apellido : ",person.apellido)
+}
+
+showProp(obj)
+
+const showPropArrow = (persona) =>{
+	console.log("Arrow function - Objeto")
+	console.log("Nombre : ",persona.nombre," Apellido : ",persona.apellido)
+}
+
+showPropArrow(obj)
